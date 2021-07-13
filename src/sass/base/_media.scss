@@ -1,0 +1,233 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 800px;
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    .next {
+        margin-right: 20px;
+    }
+    .prev {
+        margin-left: 20px;
+    }
+    .catalog {
+        &__content {
+        justify-content: space-around;
+        }
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 640px;
+    }
+    .header {
+        &__logo {
+        width: 220px;
+        }
+    }
+    .advantages {
+        &__icon {
+        width: 200px;
+        }
+    }
+    .consultation {
+        h2 {
+            width: 500px;
+        }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 70%;
+            }
+        }
+    }
+    .reviews {
+        &__descr {
+            padding-right: 70px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 400px;
+            height: 270px;
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 550px;
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .carousel {
+        .container {
+            max-width: 450px;
+        }
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+        .prev, .next {
+            img {
+                height: 40px;
+                width: 21px;
+            }  
+        }
+    }
+    .next {
+        margin-right: 30px;
+    }
+    .prev {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+        &__logo {
+            margin-bottom: 20px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+            margin-top: 0;
+        }
+        &__icons {
+            margin-top: 45px;
+            width: 100%;
+        }
+        &__icon {
+            width: 90px;
+        }
+    }
+    .title {
+        font-size: 22px;
+        &_left {
+            font-size: 18px;
+        }
+        &_reviews {
+            text-align: center;
+        }
+    }
+    .advantages {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+        &__icon {
+            margin-top: 60px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+    }
+    .consultation {
+        text-align: center;
+        h2 {
+            width: 100%;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+    .feed-form {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel {
+        .prev, .next {
+            img {
+                display: none;
+            }  
+        }
+        .next {
+            right: 20px;
+        }
+        .prev {
+            left: 20px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 32px;
+        }
+        &__tab {
+            width: 100%;
+            height: 100%;
+            font-size: 8px;
+        }
+        &__content {
+            margin-top: 40px;
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+            img {
+                margin: 0 auto;
+            }
+        }
+        &__descr {
+            margin: 20px auto 0 auto;
+            padding: 0;
+        }
+        &__count {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            padding: 0px 20px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 280px;
+            height: 150px;
+            padding: 20px;
+        }
+        &__addr {
+            font-size: 14px;
+            line-height: 14px;
+            margin-bottom: 21px;
+        }
+        &__phone {
+            font-size: 14px;
+            line-height: 14px;
+            margin-bottom: 21px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
